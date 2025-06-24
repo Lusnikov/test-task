@@ -26,10 +26,10 @@ export class MainPage extends BasePage {
        await  this.getMenuItemByText(text).click()
     }
 
-    async getRowValueBePrecedingColumnValue (text: string) {    return this.page.locator(`//div[contains(., "${text}")]/following-sibling::div[@class="description-value"]`);
+    getRowValueBePrecedingColumnValue (text: string) {    return this.page.locator(`//div[contains(., "${text}")]/following-sibling::div[@class="description-value"]`);
     }
 
     async clickUserProfileLink () {
-        (await this.getRowValueBePrecedingColumnValue('Руководитель')).getByRole('link')
+        this.getRowValueBePrecedingColumnValue('Руководитель').getByRole('link').click()
     }
 }
