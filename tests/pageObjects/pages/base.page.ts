@@ -11,11 +11,6 @@ export class BasePage {
   constructor(page: Page) {
     this.page = page;
     this.body = this.page.locator('body');
-    // this.alert = this.page.getByRole('alert')
-    // this.avatarIcon = this.page.locator("//span[contains(@class, 'avatar-icon-bg')][contains(@class, 'el-tooltip__trigger')]")
-    // this.avatarIcon =   this.page.locator('//div[@id="header-chat-icon"]/following-sibling::span[contains(@class, "el-avatar--circle")]')
-    // this.profilePopUp = this.page.locator("//div[contains(@class,'el-popover')][.//a[contains(., 'Выход')]]")
-    // this.emailLink = this.profilePopUp.locator('//a[contains(@href, "user")]')
   }
 
   /**
