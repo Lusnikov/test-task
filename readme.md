@@ -26,5 +26,10 @@ npx playwright install
 ```
 4. Запустите тесты
 ```
-npx playwright test
+npm run tests
+```
+5. Чтобы посмотреть результат тестов
+```
+allure generate allure-results --clean
+allure open
 ```

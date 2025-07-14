@@ -1,0 +1,1 @@
+[{"uid":"62f5ddce836612e8","name":"Поиск тура и последующая сверка стоимости на странице","time":{"start":1752512881478,"stop":1752512886328,"duration":4850},"status":"passed","severity":"normal"},{"uid":"638e004a749f9be1","name":"Заполняем поля №1","time":{"start":1752512881479,"stop":1752512885022,"duration":3543},"status":"passed","severity":"normal"}]
